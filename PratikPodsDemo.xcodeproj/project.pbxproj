@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9CFE1041E6030C500A7800A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CFE1031E6030C500A7800A /* main.m */; };
+		A9CFE1071E6030C500A7800A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CFE1061E6030C500A7800A /* AppDelegate.m */; };
+		A9CFE10A1E6030C500A7800A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CFE1091E6030C500A7800A /* ViewController.m */; };
+		A9CFE10D1E6030C500A7800A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CFE10B1E6030C500A7800A /* Main.storyboard */; };
+		A9CFE10F1E6030C500A7800A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CFE10E1E6030C500A7800A /* Assets.xcassets */; };
+		A9CFE1121E6030C500A7800A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CFE1101E6030C500A7800A /* LaunchScreen.storyboard */; };
+		A9CFE11D1E6030C600A7800A /* PratikPodsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CFE11C1E6030C600A7800A /* PratikPodsDemoTests.m */; };
+		A9CFE1281E6030C600A7800A /* PratikPodsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CFE1271E6030C600A7800A /* PratikPodsDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9CFE1191E6030C600A7800A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9CFE0F71E6030C500A7800A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9CFE0FE1E6030C500A7800A;
+			remoteInfo = PratikPodsDemo;
+		};
+		A9CFE1241E6030C600A7800A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9CFE0F71E6030C500A7800A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9CFE0FE1E6030C500A7800A;
+			remoteInfo = PratikPodsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9CFE0FF1E6030C500A7800A /* PratikPodsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PratikPodsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CFE1031E6030C500A7800A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9CFE1051E6030C500A7800A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9CFE1061E6030C500A7800A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9CFE1081E6030C500A7800A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9CFE1091E6030C500A7800A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9CFE10C1E6030C500A7800A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9CFE10E1E6030C500A7800A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9CFE1111E6030C500A7800A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9CFE1131E6030C500A7800A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9CFE1181E6030C600A7800A /* PratikPodsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PratikPodsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CFE11C1E6030C600A7800A /* PratikPodsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PratikPodsDemoTests.m; sourceTree = "<group>"; };
+		A9CFE11E1E6030C600A7800A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9CFE1231E6030C600A7800A /* PratikPodsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PratikPodsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CFE1271E6030C600A7800A /* PratikPodsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PratikPodsDemoUITests.m; sourceTree = "<group>"; };
+		A9CFE1291E6030C600A7800A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9CFE0FC1E6030C500A7800A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFE1151E6030C600A7800A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFE1201E6030C600A7800A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9CFE0F61E6030C500A7800A = {
+			isa = PBXGroup;
+			children = (
+				A9CFE1011E6030C500A7800A /* PratikPodsDemo */,
+				A9CFE11B1E6030C600A7800A /* PratikPodsDemoTests */,
+				A9CFE1261E6030C600A7800A /* PratikPodsDemoUITests */,
+				A9CFE1001E6030C500A7800A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9CFE1001E6030C500A7800A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9CFE0FF1E6030C500A7800A /* PratikPodsDemo.app */,
+				A9CFE1181E6030C600A7800A /* PratikPodsDemoTests.xctest */,
+				A9CFE1231E6030C600A7800A /* PratikPodsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9CFE1011E6030C500A7800A /* PratikPodsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A9CFE1051E6030C500A7800A /* AppDelegate.h */,
+				A9CFE1061E6030C500A7800A /* AppDelegate.m */,
+				A9CFE1081E6030C500A7800A /* ViewController.h */,
+				A9CFE1091E6030C500A7800A /* ViewController.m */,
+				A9CFE10B1E6030C500A7800A /* Main.storyboard */,
+				A9CFE10E1E6030C500A7800A /* Assets.xcassets */,
+				A9CFE1101E6030C500A7800A /* LaunchScreen.storyboard */,
+				A9CFE1131E6030C500A7800A /* Info.plist */,
+				A9CFE1021E6030C500A7800A /* Supporting Files */,
+			);
+			path = PratikPodsDemo;
+			sourceTree = "<group>";
+		};
+		A9CFE1021E6030C500A7800A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9CFE1031E6030C500A7800A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9CFE11B1E6030C600A7800A /* PratikPodsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9CFE11C1E6030C600A7800A /* PratikPodsDemoTests.m */,
+				A9CFE11E1E6030C600A7800A /* Info.plist */,
+			);
+			path = PratikPodsDemoTests;
+			sourceTree = "<group>";
+		};
+		A9CFE1261E6030C600A7800A /* PratikPodsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9CFE1271E6030C600A7800A /* PratikPodsDemoUITests.m */,
+				A9CFE1291E6030C600A7800A /* Info.plist */,
+			);
+			path = PratikPodsDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9CFE0FE1E6030C500A7800A /* PratikPodsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CFE12C1E6030C600A7800A /* Build configuration list for PBXNativeTarget "PratikPodsDemo" */;
+			buildPhases = (
+				A9CFE0FB1E6030C500A7800A /* Sources */,
+				A9CFE0FC1E6030C500A7800A /* Frameworks */,
+				A9CFE0FD1E6030C500A7800A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PratikPodsDemo;
+			productName = PratikPodsDemo;
+			productReference = A9CFE0FF1E6030C500A7800A /* PratikPodsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9CFE1171E6030C600A7800A /* PratikPodsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CFE12F1E6030C600A7800A /* Build configuration list for PBXNativeTarget "PratikPodsDemoTests" */;
+			buildPhases = (
+				A9CFE1141E6030C600A7800A /* Sources */,
+				A9CFE1151E6030C600A7800A /* Frameworks */,
+				A9CFE1161E6030C600A7800A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9CFE11A1E6030C600A7800A /* PBXTargetDependency */,
+			);
+			name = PratikPodsDemoTests;
+			productName = PratikPodsDemoTests;
+			productReference = A9CFE1181E6030C600A7800A /* PratikPodsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9CFE1221E6030C600A7800A /* PratikPodsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CFE1321E6030C600A7800A /* Build configuration list for PBXNativeTarget "PratikPodsDemoUITests" */;
+			buildPhases = (
+				A9CFE11F1E6030C600A7800A /* Sources */,
+				A9CFE1201E6030C600A7800A /* Frameworks */,
+				A9CFE1211E6030C600A7800A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9CFE1251E6030C600A7800A /* PBXTargetDependency */,
+			);
+			name = PratikPodsDemoUITests;
+			productName = PratikPodsDemoUITests;
+			productReference = A9CFE1231E6030C600A7800A /* PratikPodsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9CFE0F71E6030C500A7800A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = indianic;
+				TargetAttributes = {
+					A9CFE0FE1E6030C500A7800A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A9CFE1171E6030C600A7800A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9CFE0FE1E6030C500A7800A;
+					};
+					A9CFE1221E6030C600A7800A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9CFE0FE1E6030C500A7800A;
+					};
+				};
+			};
+			buildConfigurationList = A9CFE0FA1E6030C500A7800A /* Build configuration list for PBXProject "PratikPodsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9CFE0F61E6030C500A7800A;
+			productRefGroup = A9CFE1001E6030C500A7800A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9CFE0FE1E6030C500A7800A /* PratikPodsDemo */,
+				A9CFE1171E6030C600A7800A /* PratikPodsDemoTests */,
+				A9CFE1221E6030C600A7800A /* PratikPodsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9CFE0FD1E6030C500A7800A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CFE1121E6030C500A7800A /* LaunchScreen.storyboard in Resources */,
+				A9CFE10F1E6030C500A7800A /* Assets.xcassets in Resources */,
+				A9CFE10D1E6030C500A7800A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFE1161E6030C600A7800A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFE1211E6030C600A7800A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9CFE0FB1E6030C500A7800A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CFE10A1E6030C500A7800A /* ViewController.m in Sources */,
+				A9CFE1071E6030C500A7800A /* AppDelegate.m in Sources */,
+				A9CFE1041E6030C500A7800A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFE1141E6030C600A7800A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CFE11D1E6030C600A7800A /* PratikPodsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFE11F1E6030C600A7800A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CFE1281E6030C600A7800A /* PratikPodsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9CFE11A1E6030C600A7800A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9CFE0FE1E6030C500A7800A /* PratikPodsDemo */;
+			targetProxy = A9CFE1191E6030C600A7800A /* PBXContainerItemProxy */;
+		};
+		A9CFE1251E6030C600A7800A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9CFE0FE1E6030C500A7800A /* PratikPodsDemo */;
+			targetProxy = A9CFE1241E6030C600A7800A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9CFE10B1E6030C500A7800A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9CFE10C1E6030C500A7800A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9CFE1101E6030C500A7800A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9CFE1111E6030C500A7800A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9CFE12A1E6030C600A7800A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9CFE12B1E6030C600A7800A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9CFE12D1E6030C600A7800A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PratikPodsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.PratikPodsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9CFE12E1E6030C600A7800A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PratikPodsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.PratikPodsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9CFE1301E6030C600A7800A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PratikPodsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.PratikPodsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PratikPodsDemo.app/PratikPodsDemo";
+			};
+			name = Debug;
+		};
+		A9CFE1311E6030C600A7800A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PratikPodsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.PratikPodsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PratikPodsDemo.app/PratikPodsDemo";
+			};
+			name = Release;
+		};
+		A9CFE1331E6030C600A7800A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PratikPodsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.PratikPodsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PratikPodsDemo;
+			};
+			name = Debug;
+		};
+		A9CFE1341E6030C600A7800A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PratikPodsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.PratikPodsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PratikPodsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9CFE0FA1E6030C500A7800A /* Build configuration list for PBXProject "PratikPodsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CFE12A1E6030C600A7800A /* Debug */,
+				A9CFE12B1E6030C600A7800A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CFE12C1E6030C600A7800A /* Build configuration list for PBXNativeTarget "PratikPodsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CFE12D1E6030C600A7800A /* Debug */,
+				A9CFE12E1E6030C600A7800A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9CFE12F1E6030C600A7800A /* Build configuration list for PBXNativeTarget "PratikPodsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CFE1301E6030C600A7800A /* Debug */,
+				A9CFE1311E6030C600A7800A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9CFE1321E6030C600A7800A /* Build configuration list for PBXNativeTarget "PratikPodsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CFE1331E6030C600A7800A /* Debug */,
+				A9CFE1341E6030C600A7800A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9CFE0F71E6030C500A7800A /* Project object */;
+}
